@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(226, 248, 147);
+}
+
+.social ul li{
+    list-style: none;
+    float: left;
+    margin:30px;
+}
+.social ul li .fab{
+    font-size:17px;
+    color:#000;
+    line-height:30px;
+
+}
+.social ul li .fab:hover{
+    color: #fff;
+    
+}
+.social ul li a{
+    position:relative;
+    display: block;
+    background-color: #fff;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+    transition: 0.6s;
+    
+}
+.social ul li a:hover{
+    transform: translate(0, -20px);
+
+}
+.social ul li:nth-child(1) a:hover{
+    
+    background-color:#3b5999 ;
+}
+.social ul li:nth-child(2) a:hover{
+    background-color:#0084ff ;
+   
+}
+.social ul li:nth-child(3) a:hover{
+    background-color:#25D366 ;
+    
+}
+.social ul li:nth-child(4) a:hover{
+    background-color:#55acee ;
+   
+}
+.social ul li:nth-child(5) a:hover{
+    background:#e4405f ;
+   
+}
+.social ul li:nth-child(6) a:hover{
+    background-color:#0077B5 ;
+    
+}
